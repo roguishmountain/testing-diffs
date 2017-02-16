@@ -1,4 +1,5 @@
 node {
   checkout scm
-  echo scm.branches
+  echo env
+  echo scm.getBranches
 }
