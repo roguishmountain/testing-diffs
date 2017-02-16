@@ -1,5 +1,5 @@
 node {
   checkout scm
-  echo env
-  echo scm.getBranches
+  sh 'env > env.txt'
+  sh 'scm > scm.txt'
 }
